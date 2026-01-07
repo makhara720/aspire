@@ -5,165 +5,149 @@ export const LOCATIONS: Location[] = [
  {
     id: 't1',
     city: { ka: 'თბილისი', en: 'Tbilisi' },
-    title: { ka: 'მირიან მეფის ქ. 18', en: 'Mirian Mepe St. 18' },
+    title: { ka: 'ვეიპ რუმი | დიდი დიღომი', en: 'Vape Room | Didi Dighomi' },
     address: { ka: 'მირიან მეფის ქ. 18', en: 'Mirian Mepe St. 18' },
     mapUrl: 'https://www.google.com/maps?q=18+Mirian+Mepe+St+Tbilisi&output=embed'
   },
   {
     id: 't2',
     city: { ka: 'თბილისი', en: 'Tbilisi' },
-    title: { ka: 'ანა კალანდაძის ქ. 5', en: 'Ana Kalandadze St. 5' },
+    title: { ka: 'ვეიპ რუმი | საბურთალო', en: 'Vape Room | Saburtalo' },
     address: { ka: 'ანა კალანდაძის ქ. 5', en: 'Ana Kalandadze St. 5' },
     mapUrl: 'https://www.google.com/maps?q=5+Ana+Kalandadze+St+Tbilisi&output=embed'
   },
   {
     id: 't3',
     city: { ka: 'თბილისი', en: 'Tbilisi' },
-    title: { ka: 'ვიქტორ კუპრაძის ქ. 71', en: 'Viktor Kupradze St. 71' },
+    title: { ka: 'ვეიპ რუმი | ვარკეთილი', en: 'Vape Room | Varketili' },
     address: { ka: 'ვიქტორ კუპრაძის ქ. 71, კორპუსი 11', en: '71 Viktor Kupradze St, Bldg 11' },
     mapUrl: 'https://www.google.com/maps?q=71+Viktor+Kupradze+St+Building+11+Tbilisi&output=embed'
   },
   {
     id: 't4',
     city: { ka: 'თბილისი', en: 'Tbilisi' },
-    title: { ka: 'მერაბ კოსტავას ქ. 9', en: 'Merab Kostava St. 9' },
+    title: { ka: 'ვეიპ რუმი | რუსთაველი', en: 'Vape Room | Rustaveli' },
     address: { ka: 'მერაბ კოსტავას ქ. 9', en: 'Merab Kostava St. 9' },
     mapUrl: 'https://www.google.com/maps?q=9+Merab+Kostava+St+Tbilisi&output=embed'
   },
-  // Batumi Locations (New list from user)
+  // Batumi Locations
   {
     id: 'b1',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'ორბი სითი, C ბლოკი', en: 'Orbi City C block' },
+    title: { ka: 'ვეიპ რუმი | ორბი სითი, C ბლოკი', en: 'Vape Room | Orbi City C block' },
     address: { ka: 'ორბი სითი, C ბლოკი', en: 'Orbi City C block' },
     mapUrl: 'https://www.google.com/maps?q=Orbi+City+C+block+Batumi&output=embed',
-  
   },
   {
     id: 'b2',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'ზურაბ გორგილაძის ქ. 81', en: 'Zurab Gorgiladze St. 81' },
+    title: { ka: 'ვეიპ რუმი | ზურაბ გორგილაძის ქ. 81', en: 'Vape Room | Zurab Gorgiladze St. 81' },
     address: { ka: 'ზურაბ გორგილაძის ქ. 81', en: 'Zurab Gorgiladze St. 81' },
     mapUrl: 'https://www.google.com/maps?q=41.6439764,41.6230406&output=embed',
-   
   },
   {
     id: 'b3',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'ზურაბ გორგილაძის ქ. 96', en: 'Zurab Gorgiladze St. 96' },
+    title: { ka: 'ვეიპ რუმი | ზურაბ გორგილაძის ქ. 96', en: 'Vape Room | Zurab Gorgiladze St. 96' },
     address: { ka: 'ზურაბ გორგილაძის ქ. 96', en: 'Zurab Gorgiladze St. 96' },
     mapUrl: 'https://www.google.com/maps?q=96+Zurab+Gorgiladze+St+Batumi&output=embed',
-   
   },
   {
     id: 'b4',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'ფიროსმანის ქ. 6', en: 'Pirosmani St. 6' },
+    title: { ka: 'ვეიპ რუმი | ფიროსმანის ქ. 6', en: 'Vape Room | Pirosmani St. 6' },
     address: { ka: 'ფიროსმანის ქ. 6', en: 'Pirosmani St. 6' },
     mapUrl: 'https://www.google.com/maps?q=6+Pirosmani+St+Batumi&output=embed',
-   
   },
   {
     id: 'b5',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'ალექსანდრე პუშკინის ქ. 140', en: 'Alexander Pushkin St. 140' },
+    title: { ka: 'ვეიპ რუმი | ალექსანდრე პუშკინის ქ. 140', en: 'Vape Room | Alexander Pushkin St. 140' },
     address: { ka: 'ალექსანდრე პუშკინის ქ. 140', en: 'Alexander Pushkin St. 140' },
     mapUrl: 'https://www.google.com/maps?q=140+Alexander+Pushkin+St+Batumi&output=embed',
-   
   },
   {
     id: 'b6',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'პეტრე მელიქიშვილის ქ. 4', en: 'Petre Meliqishvili St. 4' },
+    title: { ka: 'ვეიპ რუმი | პეტრე მელიქიშვილის ქ. 4', en: 'Vape Room | Petre Meliqishvili St. 4' },
     address: { ka: 'პეტრე მელიქიშვილის ქ. 4', en: 'Petre Meliqishvili St. 4' },
     mapUrl: 'https://www.google.com/maps?q=41.6482554,41.629924&output=embed',
-   
   },
   {
     id: 'b7',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'ირაკლი აბაშიძის ქ. 6', en: 'Iracli Abashidze St. 6' },
+    title: { ka: 'ვეიპ რუმი | ირაკლი აბაშიძის ქ. 6', en: 'Vape Room | Iracli Abashidze St. 6' },
     address: { ka: 'ირაკლი აბაშიძის ქ. 6', en: 'Iracli Abashidze St. 6' },
     mapUrl: 'https://www.google.com/maps?q=6+Iracli+Abashidze+St+Batumi&output=embed',
-   
   },
   {
     id: 'b8',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'ზვიად გამსახურდიას ქ. 27', en: 'Zviad Gamsaxurdia St. 27' },
+    title: { ka: 'ვეიპ რუმი | ზვიად გამსახურდიას ქ. 27', en: 'Vape Room | Zviad Gamsaxurdia St. 27' },
     address: { ka: 'ზვიად გამსახურდიას ქ. 27', en: 'Zviad Gamsaxurdia St. 27' },
     mapUrl: 'https://www.google.com/maps?q=27+Zviad+Gamsaxurdia+St+Batumi&output=embed',
-   
   },
   {
     id: 'b9',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'დავით მამულაძის ქ. 3', en: 'David Mamuladze St. 3' },
+    title: { ka: 'ვეიპ რუმი | დავით მამულაძის ქ. 3', en: 'Vape Room | David Mamuladze St. 3' },
     address: { ka: 'დავით მამულაძის ქ. 3', en: 'David Mamuladze St. 3' },
     mapUrl: 'https://www.google.com/maps?q=41.6311901,41.6072543&output=embed',
-   
   },
   {
     id: 'b10',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'კ. გამსახურდიას ქ. 31', en: 'K. Gamsaxurdia St. 31' },
+    title: { ka: 'ვეიპ რუმი | კ. გამსახურდიას ქ. 31', en: 'Vape Room | K. Gamsaxurdia St. 31' },
     address: { ka: 'კ. გამსახურდიას ქ. 31', en: 'K. Gamsaxurdia St. 31' },
     mapUrl: 'https://www.google.com/maps?q=31+Konstantine+Gamsakhurdia+St+Batumi&output=embed',
-   
   },
   {
     id: 'b11',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'გენერალ ასლან აბაშიძის ქ. 1', en: 'General Aslan Abashidze St. 1' },
+    title: { ka: 'ვეიპ რუმი | გენერალ ასლან აბაშიძის ქ. 1', en: 'Vape Room | General Aslan Abashidze St. 1' },
     address: { ka: 'გენერალ ასლან აბაშიძის ქ. 1', en: 'General Aslan Abashidze St. 1' },
     mapUrl: 'https://www.google.com/maps?q=Vape+room@41.6358458,41.612529&output=embed',
-   
   },
   {
     id: 'b12',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'რ. ნიჟარაძის ქ. 18', en: 'R. Nizharadze St. 18' },
+    title: { ka: 'ვეიპ რუმი | რ. ნიჟარაძის ქ. 18', en: 'Vape Room | R. Nizharadze St. 18' },
     address: { ka: 'რ. ნიჟარაძის ქ. 18', en: 'R. Nizharadze St. 18' },
     mapUrl: 'https://www.google.com/maps?q=41.6285670,41.6084553&output=embed',
-   
   },
   {
     id: 'b13',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'გოგებაშვილის ქ. 32', en: 'Gogebashvili St. 32' },
+    title: { ka: 'ვეიპ რუმი | გოგებაშვილის ქ. 32', en: 'Vape Room | Gogebashvili St. 32' },
     address: { ka: 'გოგებაშვილის ქ. 32', en: 'Gogebashvili St. 32' },
     mapUrl: 'https://www.google.com/maps?q=32+Gogebashvili+St+Batumi&output=embed',
-   
   },
   {
     id: 'b14',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'გრანდ მოლი', en: 'Grand Mall' },
+    title: { ka: 'ვეიპ რუმი | გრანდ მოლი', en: 'Vape Room | Grand Mall' },
     address: { ka: 'გრანდ მოლი, ბათუმი', en: 'Grand Mall, Batumi' },
     mapUrl: 'https://www.google.com/maps?q=Grand+Mall+Batumi&output=embed',
-   
   },
   {
     id: 'b15',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'ბათუმი მოლი', en: 'Batumi Mall' },
+    title: { ka: 'ვეიპ რუმი | ბათუმი მოლი', en: 'Vape Room | Batumi Mall' },
     address: { ka: 'ბათუმი მოლი, ბათუმი', en: 'Batumi Mall, Batumi' },
     mapUrl: 'https://www.google.com/maps?q=Batumi+Mall&output=embed',
-   
   },
   {
     id: 'b16',
     city: { ka: 'ბათუმი', en: 'Batumi' },
-    title: { ka: 'მეტრო სითი მოლი', en: 'Metro City Mall' },
+    title: { ka: 'ვეიპ რუმი | მეტრო სითი მოლი', en: 'Vape Room | Metro City Mall' },
     address: { ka: 'მეტრო სითი მოლი, ბათუმი', en: 'Metro City Mall, Batumi' },
     mapUrl: 'https://www.google.com/maps?q=Metro+City+Mall+Batumi&output=embed',
-    
   },
   // Kutaisi Locations
- {
+  {
     id: 'k1',
     city: { ka: 'ქუთაისი', en: 'Kutaisi' },
-    title: { ka: 'ქუთაისი გრანდ მოლი', en: 'Kutaisi Grand Mall' },
+    title: { ka: 'ვეიპ რუმი | ქუთაისი გრანდ მოლი', en: 'Vape Room | Kutaisi Grand Mall' },
     address: { ka: 'ილია ჩავჭავჭავაძის გამზირი 67', en: 'Ilia Chavchavadze Avenue. 67' },
     mapUrl: 'https://www.google.com/maps?q=42.2557487,42.6731223&output=embed'
   },

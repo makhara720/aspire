@@ -14,14 +14,13 @@ const Footer: React.FC = () => {
 
         <div className="flex justify-center gap-6 mb-8">
           {[
-            { icon: 'fa-instagram', url: '#' },
-            { icon: 'fa-facebook', url: '#' },
-            { icon: 'fa-tiktok', url: '#' },
-            { icon: 'fa-linkedin', url: '#' }
+            { icon: 'fa-instagram', url: 'https://www.instagram.com/aspirenexigeorgia?igsh=aHBpZ3gwbmYwZTlm&utm_source=qr', target: '_blank' },
+            { icon: 'fa-facebook', url: 'https://www.facebook.com/share/1KJ8Xgj9La/?mibextid=wwXIfr', target: '_blank' },
           ].map((social, idx) => (
             <a
               key={idx}
               href={social.url}
+              target={social.target}
               className="w-12 h-12 flex items-center justify-center rounded-full bg-white bg-opacity-10 border border-white border-opacity-20 hover:bg-orange-500 hover:scale-110 transition-all duration-300"
             >
               <i className={`fab ${social.icon} text-xl`}></i>
