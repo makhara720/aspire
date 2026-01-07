@@ -12,7 +12,7 @@ const About: React.FC = () => {
       <section className="relative py-20 lg:py-32 bg-slate-100 dark:bg-slate-950 text-slate-900 dark:text-white overflow-hidden transition-colors duration-300 border-b border-slate-200 dark:border-slate-800">
         <div className="absolute inset-0 z-0">
           <img 
-            src="images/main.jpg" 
+            src="./images/main.jpg" 
             className="w-full h-full object-cover opacity-20 dark:opacity-30" 
             alt="Hero Background" 
           />
@@ -46,7 +46,7 @@ const About: React.FC = () => {
                 <div className="absolute -inset-4 bg-orange-600/10 dark:bg-orange-600/5 rounded-3xl blur-2xl group-hover:bg-orange-600/20 transition-all duration-500"></div>
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-slate-100 dark:border-slate-800">
                   <img 
-                    src="images/product2.jpg" 
+                    src="./images/product2.jpg" 
                     alt="Featured Aspire Content" 
                     className="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-105"
                   />
