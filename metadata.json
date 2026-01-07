@@ -1,0 +1,8 @@
+
+{
+  "name": "Aspire Nexi Georgia - Locations & Products",
+  "description": "A dynamic React application featuring categorized locations, integrated Google Maps, and a stylish product showcase for Aspire Nexi Georgia.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
