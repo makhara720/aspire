@@ -131,9 +131,8 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme, isDarkMode }) => {
           </div>
 
           <div className="mt-auto pb-10 flex justify-center gap-8">
-            <a href="#" className="text-white/60 text-2xl hover:text-white"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="text-white/60 text-2xl hover:text-white"><i className="fab fa-facebook"></i></a>
-            <a href="#" className="text-white/60 text-2xl hover:text-white"><i className="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/aspirenexigeorgia?igsh=aHBpZ3gwbmYwZTlm&utm_source=qr" className="text-white/60 text-2xl hover:text-white"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/share/1KJ8Xgj9La/?mibextid=wwXIfr" className="text-white/60 text-2xl hover:text-white"><i className="fab fa-facebook"></i></a>
           </div>
         </div>
       </div>
